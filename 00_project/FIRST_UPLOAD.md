@@ -83,3 +83,5 @@
 - 00_project/FIRST_UPLOAD.md
 
 本清单中的 AGENTS.md、PROJECT_PLAN.md、PROJECT_STATE.md 和 README.md 包含项目方向与研究计划。首次提交时只能包含清单列出的文件；若仓库仍为 Public，不得推送。
+
+本地 72 文件初始提交：08539d2acaaa029e08dbb4cb167c0bf29fcafe41。后续若有状态文件更新，则还有一个仅更新说明文件的本地提交；实际首次推送前核对完整提交历史与远程状态。

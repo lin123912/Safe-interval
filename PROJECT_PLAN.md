@@ -258,3 +258,7 @@ VS Code 工作区、项目设置、只读 Git 任务已创建；扩展仅盘点�
 ## 8. 首次 GitHub 上传状态（2026-09-25）
 
 用户授权改私有、核对清单及首次上传。GitHub 插件确认账号有管理员与推送权限，但仓库当前为 Public。插件未提供修改仓库可见性操作，本机 Git Credential Manager 无可用凭据。候选文件清单在 00_project/FIRST_UPLOAD.md；Private 状态未核验前不得推送。具体最新状态以 PROJECT_STATE.md 为准。
+
+### 首次提交就绪状态
+
+2026-09-25 已核对 72 个候选文件并创建本地初始提交 08539d2acaaa029e08dbb4cb167c0bf29fcafe41；没有推送。GitHub 插件当前核验仓库仍为 Public，账号有 admin/push 元数据权限。由于可用工具不支持修改仓库可见性且本机无 API 凭据，须在 GitHub 设置中改为 Private 后再复核并推送。

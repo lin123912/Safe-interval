@@ -4,7 +4,7 @@
 - 用户指定的 GitHub 仓库：`https://github.com/lin123912/Safe-interval`。
 - 后续论文代码、实验配置、结果说明及相关文档的开发与版本管理，均以该本地目录和该远程仓库为准。
 - 实施计划见 `PROJECT_PLAN.md`；后续工作开始时先读取并按实际进展更新。
-- 2026-09-25 已初始化本地 Git 并配置 origin 为 https://github.com/lin123912/Safe-interval.git；main 尚无提交。远程查询因连接重置失败，关联不等于已验证远程权限。操作前读取 PROJECT_STATE.md 并检查实际状态。
+- 2026-09-25 已初始化本地 Git 并配置 origin 为 https://github.com/lin123912/Safe-interval.git；本地已形成待推送的初始提交。GitHub 插件已核验账号有 admin/push 权限，但仓库仍是 Public；改为 Private 并复核后才能推送。操作前读取 PROJECT_STATE.md 并检查实际状态。
 - 提交或推送前检查改动，不将密码、令牌或其他凭据写入仓库。遵循用户对当前任务的提交和推送授权。
 
 ## 已确认的研究与执行边界

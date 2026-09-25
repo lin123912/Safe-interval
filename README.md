@@ -35,3 +35,5 @@
 
 远程为 https://github.com/lin123912/Safe-interval 。本地 origin 已关联，GitHub 插件已确认账号有 admin/push 权限，但仓库当前为 Public；须先改为 Private 并复查，才能上传。目录整理不会自动提交、推送或发布。
 文件同步须遵循 `00_project/SYNC_POLICY.md`；.gitignore 仅降低误加入的概率，不能代替上传前审阅。
+
+本地已生成待推送的初始提交；仓库改为 Private 并复查前不上传。

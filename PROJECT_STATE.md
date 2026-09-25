@@ -15,7 +15,7 @@
 - 质量优先，进度检查与补缺按 PROJECT_PLAN.md 执行；未启用后台提醒。
 
 ## GitHub 与 VS Code
-- origin：https://github.com/lin123912/Safe-interval.git；本地 main 尚无提交。
+- origin：https://github.com/lin123912/Safe-interval.git；本地 main 已有初始提交，尚未推送。
 - 最新检查：沙箱内 Git HTTPS helper 无法启动；沙箱外 git ls-remote 成功退出、无分支/标签返回，符合空仓库状态。本次外部读取未再超时。GitHub 官方 API 返回 visibility=public、private=false、default_branch=main；写权限未验证。仓库实际为公开，与既定私有同步策略不符，暂不上传研究材料。
 - 未暂存、提交、推送或修改远程内容。部署快照仅为本地恢复用途，不是异地备份。
 - VS Code CLI 可用；已核验安装的中文语言包及两个 Markdown 扩展，详见 TOOL_REGISTRY.md。没有安装新扩展或修改全局设置，也没有声称插件功能已运行。
@@ -42,5 +42,11 @@
 - 用户已授权将 lin123912/Safe-interval 改为 Private、核对上传清单和写权限并完成首次上传。
 - GitHub 插件本次认证为账号 lin123912，仓库权限显示 admin=true、push=true；当前仓库 visibility=public。插件在本会话未提供修改仓库可见性的工具；本机 Git Credential Manager 无可用凭据，因此暂无法执行设置 Private 的步骤。权限元数据不等于实际推送已成功。
 - 本地候选文件已审查；精确清单见 00_project/FIRST_UPLOAD.md。研究原件、数据、运行文件、投稿/审稿材料和归档默认排除。常见令牌与私钥格式扫描未发现匹配，不能代替全面人工审查。
-- 在 GitHub 私有性核验通过前，不推送任何文件。已准备本地首个提交后，本段状态以实际提交结果更新。
+- 已逐文件核对并在本地提交 72 个文件；提交 08539d2acaaa029e08dbb4cb167c0bf29fcafe41。GitHub 仍为 Public，尚未推送。
 - 进度日期基线仍未建立，不能判断研究延期。研究下一阶段仍为 P01 立项与 EVENT 文献溯源，推荐 Sol High；Luna 用于简单整理，Astra 用于后续困难推导。界面可用性未核验。
+
+## 首次上传当前阻塞点
+
+- 本地初始提交已准备就绪，工作树干净。GitHub 插件提供账号与权限读取、代码写入，但在本次可调用工具中没有仓库可见性设置操作。本机 Git Credential Manager 未提供可用于 GitHub API 的凭据。
+- 需要在 GitHub 仓库 Settings → General → Danger Zone → Change repository visibility 中把仓库改为 Private；这是完成已授权上传所需的外部设置。完成后复查 Private 和远程分支，再推送本地提交。
+- 当前不能声称仓库已转为私有或首次上传已完成。
