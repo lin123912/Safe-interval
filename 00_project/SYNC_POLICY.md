@@ -1,7 +1,6 @@
 # GitHub 同步范围
 
-指定仓库：https://github.com/lin123912/Safe-interval 。2026-09-25 核验实际为 Public；用户已授权改为 Private。Private 尚未完成且核验前不得推送。
-本次部署不包含提交或推送授权；不更改 origin，不强制推送。
+指定仓库：https://github.com/lin123912/Safe-interval 。2026-09-25 核验当时为 Public；2026-09-26 用户报告已改为 Private，当前连接尚未获得私有仓库访问授权，因此 Private 状态仍须独立复核。用户已授权首次上传；核验前不得推送，不更改 origin，不强制推送。
 
 可进入候选提交清单：项目规则、当前计划、简明状态、去除敏感内容的文献元数据/笔记、推导、代码、配置、结果摘要、允许上传的稿件图表和依赖记录。
 默认本地：文献全文、raw/external/synthetic/processed 数据、完整运行输出、投稿包、审稿材料、旧版归档、机器盘点与工具日志、凭据、缓存。

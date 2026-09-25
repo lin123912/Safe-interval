@@ -4,7 +4,7 @@
 - 用户指定的 GitHub 仓库：`https://github.com/lin123912/Safe-interval`。
 - 后续论文代码、实验配置、结果说明及相关文档的开发与版本管理，均以该本地目录和该远程仓库为准。
 - 实施计划见 `PROJECT_PLAN.md`；后续工作开始时先读取并按实际进展更新。
-- 2026-09-25 已初始化本地 Git 并配置 origin 为 https://github.com/lin123912/Safe-interval.git；本地已形成待推送的初始提交。GitHub 插件已核验账号有 admin/push 权限，但仓库仍是 Public；改为 Private 并复核后才能推送。操作前读取 PROJECT_STATE.md 并检查实际状态。
+- 2026-09-25 已初始化本地 Git 并配置 origin 为 https://github.com/lin123912/Safe-interval.git；本地已有待推送提交。2026-09-26 用户报告仓库已改为 Private，但当前 GitHub 连接尚无私有仓库访问授权，不能独立核实可见性、远程历史或当前写权限。操作前读取 PROJECT_STATE.md 并检查实际状态。
 - 提交或推送前检查改动，不将密码、令牌或其他凭据写入仓库。遵循用户对当前任务的提交和推送授权。
 
 ## 已确认的研究与执行边界
@@ -65,5 +65,5 @@
 
 ## 首次 GitHub 上传的当前门槛
 
-- 2026-09-25 GitHub 插件核验仓库为 Public、账号 lin123912 有 admin/push 元数据权限；用户已授权改为 Private 并首次上传。
-- 本地推送须等实际可见性变为 Private 并再次核验。先按 00_project/FIRST_UPLOAD.md 审阅提交内容，避免上传日志、数据、原文、投稿审稿材料或旧版归档。
+- 2026-09-25 GitHub 插件核验仓库当时为 Public、账号 lin123912 当时有 admin/push 元数据权限；用户现已报告改为 Private，并授权首次上传。旧权限信息不能代替当前核验。
+- 私有仓库连接授权完成后，须读回实际可见性、远程历史和写权限。先按 00_project/FIRST_UPLOAD.md 审阅提交内容，避免上传日志、数据、原文、投稿审稿材料或旧版归档。
