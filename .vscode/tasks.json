@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "论文项目：查看 Git 状态",
+      "type": "process",
+      "command": "git",
+      "args": [
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "论文项目：查看远程地址",
+      "type": "process",
+      "command": "git",
+      "args": [
+        "remote",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

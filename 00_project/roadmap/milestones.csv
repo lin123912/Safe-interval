@@ -1,0 +1,7 @@
+paper_id,milestone_id,target_week,planned_date,actual_date,status,deliverable,quality_gate,decision_ref
+P01,M01,2,,,baseline_pending,立项卡与文献依据,来源和研究边界清楚,
+P01,M02,5,,,not_started,基准复现记录,公式参数可追溯且差异可解释,
+P01,M03,9,,,not_started,动态方法与范围冻结,推导与实现可检查,
+P01,M04,14,,,not_started,主实验记录,对照与关键验证充分,
+P01,M05,17,,,not_started,完整工作稿,文图数据引用一致,
+P01,M06,20,,,not_started,收尾评审与投稿准备,作者审阅且无关键证据缺口,

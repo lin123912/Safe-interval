@@ -1,0 +1,44 @@
+# 本地材料：保留目录说明，默认不加入数据/全文
+/01_literature/originals/*
+!/01_literature/originals/README.md
+/03_data/raw/*
+!/03_data/raw/README.md
+/03_data/external/*
+!/03_data/external/README.md
+/03_data/synthetic/*
+!/03_data/synthetic/README.md
+/03_data/processed/*
+!/03_data/processed/README.md
+/05_experiments/runs/*
+!/05_experiments/runs/README.md
+/08_submission/*/packages/*
+!/08_submission/*/packages/README.md
+/08_submission/*/reviews/*
+!/08_submission/*/reviews/README.md
+/09_archive/*
+!/09_archive/README.md
+/00_project/logs/*
+!/00_project/logs/README.md
+# 凭据及本机环境
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+auth.json
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+node_modules/
+Thumbs.db
+.DS_Store
+# 构建中间文件
+*.aux
+*.log
+*.out
+*.synctex.gz
